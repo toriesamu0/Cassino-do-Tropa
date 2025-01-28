@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Casino Royale - Jogos de Cassino</title>
+    <link rel="stylesheet" href="css inicio/inicio.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="https://via.placeholder.com/150x50?text=CASSINO+ROYAL" alt="Casino Royale">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#roulette">Roleta</a></li>
+                <li><a href="#poker">Poker</a></li>
+                <li><a href="#blackjack">Blackjack</a></li>
+                <li><a href="#slots">Máquinas de Caça-Níqueis</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="intro">
+        <h1>Bem-vindo ao Casino Royale</h1>
+        <p>Escolha um dos nossos jogos e divirta-se!</p>
+        <div class="games">
+            <div class="game-card" id="roulette">
+                <img src="Imagens/em contrução.png" alt="Roleta">
+                <h2>Roleta</h2>
+                <p>Aposte nos números e cores e tente a sorte!</p>
+                <button onclick="navigateTo('Roleta')">Jogar</button>
+            </div>
+            <div class="game-card" id="poker">
+                <img src="Imagens/em contrução.png" alt="Poker">
+                <h2>Poker</h2>
+                <p>Testes suas habilidades no poker com amigos ou contra o computador!</p>
+                <button onclick="navigateTo('Poker')">Jogar</button>
+            </div>
+            <div class="game-card" id="blackjack">
+                <img src="Imagens/em contrução.png" alt="Blackjack">
+                <h2>Blackjack</h2>
+                <p>Aproximar-se de 21 sem ultrapassar é o objetivo!</p>
+                <button onclick="navigateTo('Blackjack')">Jogar</button>
+            </div>
+            <div class="game-card" id="slots">
+                <img src="Imagens/caça niquel.png" alt="Máquinas de Caça-Níqueis">
+                <h2>Máquinas de Caça-Níqueis</h2>
+                <p>Gire os rolos e tente ganhar grandes prêmios!</p>
+                <a href="Caça-Niquel/index.html"><button>Jogar</button></a> <!-- Link para a página do jogo -->
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Casino Royale. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="inicio.js"></script>
+</body>
+</html>
